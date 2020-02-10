@@ -22,7 +22,7 @@
 #define LIBDNF_MODULEPACKAGECONTAINER_HPP
 
 #include "libdnf/dnf-utils.h"
-#include "ModulePackage.hpp"
+#include "modulemd/ModulePackage.hpp"
 #include "libdnf/nsvcap.hpp"
 
 #include <map>

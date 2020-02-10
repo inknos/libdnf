@@ -29,7 +29,6 @@ extern "C" {
 }
 
 #include "ModulePackage.hpp"
-#include "modulemd/ModuleProfile.hpp"
 #include "libdnf/utils/File.hpp"
 #include "libdnf/dnf-sack-private.hpp"
 #include "libdnf/repo/Repo-private.hpp"

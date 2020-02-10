@@ -29,7 +29,7 @@
 #include "hy-query.h"
 #include "sack/packageset.hpp"
 #include "sack/query.hpp"
-#include "module/ModulePackage.hpp"
+#include "module/modulemd/ModulePackage.hpp"
 #include "module/ModulePackageContainer.hpp"
 
 typedef Id  (*dnf_sack_running_kernel_fn_t) (DnfSack    *sack);

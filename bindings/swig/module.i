@@ -49,7 +49,7 @@ typedef int Id;
 %nodefaultctor libdnf::ModuleProfile;
 %nodefaultctor libdnf::ModuleDependencies;
 
-%include "libdnf/module/ModulePackage.hpp"
+%include "libdnf/module/modulemd/ModulePackage.hpp"
 %ignore libdnf::ModulePackageContainer::Exception;
 %ignore libdnf::ModulePackageContainer::NoModuleException;
 %ignore libdnf::ModulePackageContainer::NoStreamException;

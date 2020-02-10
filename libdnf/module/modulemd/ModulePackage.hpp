@@ -25,8 +25,8 @@
 #include <string>
 
 #include "libdnf/dnf-types.h"
-#include "modulemd/ModuleProfile.hpp"
-#include "modulemd/ModuleDependencies.hpp"
+#include "ModuleProfile.hpp"
+#include "ModuleDependencies.hpp"
 #include "libdnf/repo/solvable/Package.hpp"
 #include "../goal/IdQueue.hpp"
 

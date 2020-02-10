@@ -4,6 +4,8 @@
 #include <cppunit/TestCase.h>
 #include <cppunit/extensions/HelperMacros.h>
 #include "libdnf/dnf-context.hpp"
+#include "libdnf/module/ModulePackageContainer.hpp"
+#include "libdnf/module/modulemd/ModulePackage.hpp"
 #include "libdnf/module/modulemd/ModuleMetadata.hpp"
 
 class ContextTest : public CppUnit::TestCase

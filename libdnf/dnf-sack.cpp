@@ -77,7 +77,7 @@ extern "C" {
 #include "conf/ConfigParser.hpp"
 #include "conf/OptionBool.hpp"
 #include "module/ModulePackageContainer.hpp"
-#include "module/ModulePackage.hpp"
+#include "module/modulemd/ModulePackage.hpp"
 #include "repo/Repo-private.hpp"
 #include "repo/solvable/DependencyContainer.hpp"
 #include "utils/crypto/sha1.hpp"
